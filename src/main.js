@@ -20,7 +20,7 @@ console.log('\nStarting the miner...');
 coin.minePendingTransactions(myWalletAddress);
 
 console.log('\nBalance of myWallet is: '+coin.getBalanceOfAddress(myWalletAddress));
-coin.chain[1].transactions[0].amount = 1000;
+//coin.chain[1].transactions[0].amount = 1000;
 console.log('Is chain valid?', coin.isChainValid());
 /*
 console.log('\nStarting the miner...');
